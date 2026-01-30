@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Hub - ប្រៀបធៀបតម្លៃផលិតផល</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Price Hub</h1>
+        <p>ប្រៀបធៀបតម្លៃពីហាងធំៗ និងរកតម្លៃដែលល្អបំផុត!</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="ស្វែងរកផលិតផល (ឧ. iPhone 17)">
+            <button id="searchBtn">ស្វែងរក</button>
+            <select id="sortSelect">
+                <option value="none">តម្រៀបតាម...</option>
+                <option value="low">តម្លៃទាបបំផុតមុន</option>
+                <option value="high">តម្លៃខ្ពស់បំផុតមុន</option>
+            </select>
+        </div>
+
+        <div id="results"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
